@@ -4,9 +4,9 @@ require "sinatra"
 require "pitcher"
 require "pitcher/settings"
 
-use Rack::Auth::Basic, "Restricted Area" do |username, password|
-  username == 'admin' and password == 'admin'
-end
+#use Rack::Auth::Basic, "Restricted Area" do |username, password|
+#  username == 'admin' and password == 'admin'
+#end
 
 get '/' do
   @title = 'CONTENTdm Batch Import'
