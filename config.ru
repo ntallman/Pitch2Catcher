@@ -38,4 +38,5 @@ require 'logger'
     env["rack.errors"] =  error_logger
   }
 
-run Sinatra::Application
+#run Sinatra::Application
+run App
